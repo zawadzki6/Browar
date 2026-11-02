@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.8</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10.0</LangVersion>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExMod.Exiled" Version="9.14.2" Private="false"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule" HintPath="ref/UnityEngine.CoreModule.dll" Private="false"/>
+    <Reference Include="Assembly-CSharp-firstpass" HintPath="ref/Assembly-CSharp-firstpass.dll" Private="false"/>
+    <Reference Include="UnityEngine" HintPath="ref/UnityEngine.dll" Private="false"/>
+    <Reference Include="UnityEngine.PhysicsModule" HintPath="ref/UnityEngine.PhysicsModule.dll" Private="false"/>
+    <Reference Include="Mirror" HintPath="ref/Mirror.dll" Private="false"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Browar.API" HintPath="ref/Browar.API.dll" Private="false"/>
+  </ItemGroup>
+
+</Project>

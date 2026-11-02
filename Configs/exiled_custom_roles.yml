@@ -1,0 +1,48 @@
+# Whether the plugin is enabled.
+is_enabled: true
+# Whether debug messages should be shown.
+debug: false
+# The hint that is shown when someone gets a custom role.
+got_role_hint:
+# The broadcast content
+  content: "\n<voffset=-40><size=60%>twoja rola</size></voffset>\n<size=150%><b>{0}</b></size>\n<size=60%>{1}</size>"
+  # The broadcast duration
+  duration: 15
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown
+  show: true
+# The hint that is shown when someone used a custom ability.
+used_ability_hint:
+# The broadcast content
+  content: "Ability {0} has been activated.\n{1}"
+  # The broadcast duration
+  duration: 5
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown
+  show: true
+# Whether Keypress ability activations will work on the server.
+use_keypress_activation: true
+# Whether abilities that are not selected as the current keypress ability can still be activated.
+activate_only_selected: true
+# The hint showed to players when they fail to preform an action.
+failed_action_hint:
+# The broadcast content
+  content: "Failed to preform action: {0}"
+  # The broadcast duration
+  duration: 5
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown
+  show: true
+# The hint that is shown to players when they switch abilities.
+switched_ability_hint:
+# The broadcast content
+  content: "Selected ability {0}"
+  # The broadcast duration
+  duration: 5
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown
+  show: true

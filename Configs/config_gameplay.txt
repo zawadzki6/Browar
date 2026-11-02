@@ -1,0 +1,5 @@
+server_name: <b><size=49><color=#eaff00>[</color>P<color=#dc163dff>L</color><color=#eaff00>]</color> \\\\ <color=#FBEA60>B</color><color=#F7E161>R</color><color=#F3D862>O</color><color=#EFCF63>W</color><color=#EBC664>A</color><color=#E7BD65>R</color> #1</size> <size=26><color=#6c4949>Ciemny</color></size></b>
+server_name: <b><size=49><color=#eaff00>[</color>P<color=#dc163dff>L</color><color=#eaff00>]</color> \\\\ <color=#FBEA60>B</color><color=#F7E161>R</color><color=#F3D862>O</color><color=#EFCF63>W</color><color=#EBC664>A</color><color=#E7BD65>R</color> #2</size> <size=26><color=#fff8b0>Jasny</color></size></b>
+
+broadcast_kick_text: <color=#e3af35><size=40>[ Browar 🍺 ]</size>\n<size=30>%nick% zostail wyrzuceni na zbity pysk.</size></color>
+broadcast_ban_text: <color=#e3af35><size=40>[ Browar 🍺 ]</size>\n<size=30>%nick% zostali rozstrzelani przez administracje.</size></color>

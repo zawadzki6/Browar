@@ -1,0 +1,75 @@
+is_enabled: true
+debug: false
+# whether to use a different hint for spectators
+spectator: true
+# whether to show a lobby hint
+lobby: true
+# available tags that will be replaced during runtime: %tps%, %players%, %maxplayers%, %friendlyfire%, %version%, %roundtime%, %tip%
+hint: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=12>\n\n\n\n<voffset=-6>[ <color=#f7ae4c>b</color><color=#f8b649>r</color><color=#fabf45>o</color><color=#fbc842>w</color><color=#fdd13e>a</color><color=#fedb3b>r</color> ]</voffset>\n<voffset=-6>TPS: %tps% | FF: %friendlyfire% | MINEŁO: %roundtime% | GRACZE: %players%/%maxplayers%</voffset></size>"
+spectator_hint: "\n\n\n\n\n\n\n\n\n\n\n\n\n<size=16>fun fact: %tip%</size>\n\n\n\n<size=12>\n\n\n\n<voffset=-6>[ <color=#f7ae4c>b</color><color=#f8b649>r</color><color=#fabf45>o</color><color=#fbc842>w</color><color=#fdd13e>a</color><color=#fedb3b>r</color> ]</voffset>\n<voffset=-6>TPS: %tps% | FF: %friendlyfire% | MINEŁO: %roundtime% | GRACZE: %players%/%maxplayers%</voffset></size>"
+lobby_hint: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=60%><color=#8ab4f8>wejdź na naszego discorda: dc.freemoszka.org</color></size>"
+# how often should the hints refresh
+refresh_rate: 10
+lobby_refresh_rate: 30
+# placeholder tip if any from the list failed for some reason
+placeholder_tip: "tips will appear here..."
+# tips for the %tip% tag
+tips:
+- "na serwerze znajduje się wiele custom itemów - znajdź je wszystkie"
+- "nie pytaj się gdzie piwo"
+- "<color=#f7ae4c>b</color><color=#f8b649>r</color><color=#fabf45>o</color><color=#fbc842>w</color><color=#fdd13e>a</color><color=#fedb3b>r</color> oryginalnie powstał circa kwietnia 2025"
+- "<color=#f7ae4c>b</color><color=#f8b649>r</color><color=#fabf45>o</color><color=#fbc842>w</color><color=#fdd13e>a</color><color=#fedb3b>r</color> pochodzi od serwera <color=#00ffff>aurora</color>"
+- "zagraj także u naszych partnerów!"
+- "dziękujemy wszystkim partnerom!"
+- "dzwoni do mnie tromba bomba"
+- "cyfer legenda"
+- "evil browar nie istnieje. nie zrobi ci krzywdy"
+- "[ redacted ] chuj"
+- "<color=#0084c1>kasteuszinator</color> był pierwszym custom itemem dodanym na serwer w 2025"
+- "siea"
+- "cesc"
+- "imagine grac na serwerze [ wklej serwer tutaj ]"
+- "serwer jest hostowany przez nas samych - nie zależymy na żadnym hostingu!"
+- "kurwa browar"
+- "witaj na browarze, do widzenia"
+- "serwer wolny od cepmoda"
+- "na zawsze bez rang premium. nie płać, żeby wygrać!"
+- "<b><color=green>komicznie stylizowany tekst</color></b>"
+- "administracja nie śpi"
+- "administracja nie musi być na serwerze żeby obserwować"
+- "mubert to faja"
+- "czesc northwood"
+- "[ wklej tutaj ] tu byli"
+- "cześć wszystkim witajcie. nazywam się markiplier i dzisiaj gramy na browarze. indyjski serwer scpsl który zaproponowaliście masowo(...)"
+- "indentacje allmana są gównem i ich nie nawidze"
+- "fabią to fabią tamto fabią ale bym coś zjadł"
+- "ciesz się że masz okna w szkole!1!"
+- "sprawdź swoją skrzynkę pocztową mikołaj denier"
+- ":steamhappy:"
+- "generalnie dobry serwer"
+- "nie sluchaj innych porad uciekaj z browara póki możesz"
+- "evil browar <b>nie</b> istnieje"
+- "<color=#e100ff>vaporizer</color> > <color=#ff6c23>przycisk samobójczy</color>"
+- "serwer jest bezbłędny i działa stabilnie"
+- "20tps to dobry wynik ...w minecraft"
+- "wiele pluginów na serwerze zostało napisane przez nas, samodzielnie"
+- "wbił_ś już na <color=#8ab4f8>discorda</color>?"
+- "wbij na naszego <color=#8ab4f8>discorda</color>!"
+- "powiesz administracji?"
+- "serwer nie posiada żadnych oficjalnych social mediów!"
+- "nie mamy żadnych rang premium! nie płać, żeby wygrać!"
+- "największym wsparciem jest wbicie na naszego <color=#8ab4f8>discorda</color>!"
+- "kutas kurwa kutas kurwa kutas kurwa chuj"
+- "freemoszka.org"
+- "dc.freemoszka.org"
+- "dlaczego wzburzasz coraz większa nienawiść do <b>x</b>? co oni tobie zrobili?"
+- "dodamy x? zaproponujesz na #propozycje?"
+- "nie dodamy [ wklej tutaj ]"
+- "[ wklej tutaj ] dodamy wkrótce(tm)"
+- "dlaczego używać fent irl jeżeli możesz używać fent na browarze"
+- "nigdy nie będzie <color=#f7ae4c>b</color><color=#f8b649>r</color><color=#fabf45>o</color><color=#fbc842>w</color><color=#fdd13e>a</color><color=#fedb3b>r</color> hardp. możesz jednak zagrać u naszych partnerów!"
+# %friendlyfire% tag translation
+friendly_fire_on: "ON"
+friendly_fire_off: "OFF"
+# should the %tps% tag use direct or average tps, diff shouldn't be noticeable
+average_tps: false
